@@ -38,11 +38,10 @@ btn5.addEventListener("click", () => {
 let btn6 = document.getElementById("btn6");
 
 btn6.addEventListener("click", () => {
-    document.body.style.backgroundColor = "red"
 
-    let img = document.createElement("img");
-    img.src = "https://images.pexels.com/photos/15843081/pexels-photo-15843081/free-photo-of-photo-of-a-branch-with-magnolia-flowers.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load";
-    body.appendChild(img)
+    let img = document.getElementById("img1");
+    img.src = "https://images.pexels.com/photos/18343649/pexels-photo-18343649/free-photo-of-potted-monsteras-on-tables-in-room.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load";
+
 
 })
 
